@@ -1,8 +1,8 @@
 import "./App.css";
-import Accordion from "./components/accordion/Accordion";
-import ImageSlider from "./components/image-slider/ImageSlider";
-import RandomColor from "./components/random-color/RandomColor";
-import StarRating from "./components/star-rating/StarRating";
+import Accordion from "./projects/accordion/Accordion";
+import ImageSlider from "./projects/image-slider/ImageSlider";
+import RandomColor from "./projects/random-color/RandomColor";
+import StarRating from "./projects/star-rating/StarRating";
 
 function App() {
   return (
