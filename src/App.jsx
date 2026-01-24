@@ -5,6 +5,7 @@ import LightDarkMode from './projects/light-dark-mode/LightDarkMode';
 import LoadMoreData from './projects/load-more-data/LoadMoreData';
 import QRCodeGenerator from './projects/qr-code-generator/QRCodeGenerator';
 import RandomColor from './projects/random-color/RandomColor';
+import ScrollIndicator from './projects/scroll-indicator/ScrollIndicator';
 import StarRating from './projects/star-rating/StarRating';
 import TreeView from './projects/tree-view/TreeView';
 import { menus } from './projects/tree-view/data';
@@ -36,7 +37,10 @@ function App() {
       {/* <QRCodeGenerator /> */}
 
       {/* Light and dark theme swich */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      {/* Scroll Indicator component */}
+      <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
     </div>
   );
 }
