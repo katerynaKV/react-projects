@@ -1,5 +1,6 @@
 import './App.css';
 import Accordion from './projects/accordion/Accordion';
+import CustomModal from './projects/custom-modal/CustomModal';
 import CustomTabs from './projects/custom-tabs/CustomTabs';
 import ImageSlider from './projects/image-slider/ImageSlider';
 import LightDarkMode from './projects/light-dark-mode/LightDarkMode';
@@ -44,7 +45,10 @@ function App() {
       {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100" /> */}
 
       {/* Custom tabs component */}
-      <CustomTabs />
+      {/* <CustomTabs /> */}
+
+      {/* Custom Modal component */}
+      <CustomModal />
     </div>
   );
 }
