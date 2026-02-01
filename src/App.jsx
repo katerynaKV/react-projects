@@ -2,6 +2,7 @@ import './App.css';
 import Accordion from './projects/accordion/Accordion';
 import CustomModal from './projects/custom-modal/CustomModal';
 import CustomTabs from './projects/custom-tabs/CustomTabs';
+import GithubProfileFinder from './projects/github-profile-finder/GithubProfileFinder';
 import ImageSlider from './projects/image-slider/ImageSlider';
 import LightDarkMode from './projects/light-dark-mode/LightDarkMode';
 import LoadMoreData from './projects/load-more-data/LoadMoreData';
@@ -48,7 +49,10 @@ function App() {
       {/* <CustomTabs /> */}
 
       {/* Custom Modal component */}
-      <CustomModal />
+      {/* <CustomModal /> */}
+
+      {/* Github profile finder */}
+      <GithubProfileFinder />
     </div>
   );
 }
