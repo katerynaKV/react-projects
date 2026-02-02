@@ -9,6 +9,7 @@ import LoadMoreData from './projects/load-more-data/LoadMoreData';
 import QRCodeGenerator from './projects/qr-code-generator/QRCodeGenerator';
 import RandomColor from './projects/random-color/RandomColor';
 import ScrollIndicator from './projects/scroll-indicator/ScrollIndicator';
+import SearchAutocomplete from './projects/search-autocomplete-with-API/SearchAutocomplete';
 import StarRating from './projects/star-rating/StarRating';
 import TreeView from './projects/tree-view/TreeView';
 import { menus } from './projects/tree-view/data';
@@ -52,7 +53,10 @@ function App() {
       {/* <CustomModal /> */}
 
       {/* Github profile finder */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      {/* Search Autocomplete */}
+      <SearchAutocomplete />
     </div>
   );
 }
