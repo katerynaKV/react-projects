@@ -15,6 +15,7 @@ import SearchAutocomplete from './projects/search-autocomplete-with-API/SearchAu
 import StarRating from './projects/star-rating/StarRating';
 import TicTacToe from './projects/tic-tac-toe/TicTacToe';
 import TreeView from './projects/tree-view/TreeView';
+import UseFetchHookTest from './projects/use-fetch/UseFetchHookTest';
 import { menus } from './projects/tree-view/data';
 
 function App() {
@@ -65,9 +66,12 @@ function App() {
       {/* <TicTacToe /> */}
 
       {/* Feature Flag Implementation */}
-      <FeatureFlagsProvider>
+      {/* <FeatureFlagsProvider>
         <FeatureFlags />
-      </FeatureFlagsProvider>
+      </FeatureFlagsProvider> */}
+
+      {/* UseFetch - Custom Hook Test */}
+      <UseFetchHookTest />
     </div>
   );
 }
