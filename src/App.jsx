@@ -2,6 +2,8 @@ import './App.css';
 import Accordion from './projects/accordion/Accordion';
 import CustomModal from './projects/custom-modal/CustomModal';
 import CustomTabs from './projects/custom-tabs/CustomTabs';
+import FeatureFlags from './projects/feature-flag/FeatureFlags';
+import FeatureFlagsProvider from './projects/feature-flag/context/FeatureFlagsProvider';
 import GithubProfileFinder from './projects/github-profile-finder/GithubProfileFinder';
 import ImageSlider from './projects/image-slider/ImageSlider';
 import LightDarkMode from './projects/light-dark-mode/LightDarkMode';
@@ -60,7 +62,12 @@ function App() {
       {/* <SearchAutocomplete /> */}
 
       {/* Tic tac toe */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/* Feature Flag Implementation */}
+      <FeatureFlagsProvider>
+        <FeatureFlags />
+      </FeatureFlagsProvider>
     </div>
   );
 }
