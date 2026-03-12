@@ -19,6 +19,8 @@ import UseFetchHookTest from './projects/use-fetch/UseFetchHookTest';
 import { menus } from './projects/tree-view/data';
 import UseOnClickOutsideTest from './projects/use-outside-click/UseOnClickOutsideTest';
 import UseWindowResizeTest from './projects/use-window-resize/UseWindowResizeTest';
+import ScrollToTopAndBottom from './projects/scroll-to-top-and-bottom/ScrollToTopAndBottom';
+import ScrollToSection from './projects/scroll-to-top-and-bottom/ScrollToSection';
 
 function App() {
   return (
@@ -79,7 +81,13 @@ function App() {
       {/* <UseOnClickOutsideTest /> */}
 
       {/* Use Window Resize Hook Test */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+
+      {/* Scroll to Top and Bottom */}
+      {/* <ScrollToTopAndBottom /> */}
+
+      {/* Scroll to a Particular Section */}
+      <ScrollToSection />
     </div>
   );
 }
