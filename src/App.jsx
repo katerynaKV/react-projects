@@ -21,6 +21,7 @@ import UseOnClickOutsideTest from './projects/use-outside-click/UseOnClickOutsid
 import UseWindowResizeTest from './projects/use-window-resize/UseWindowResizeTest';
 import ScrollToTopAndBottom from './projects/scroll-to-top-and-bottom/ScrollToTopAndBottom';
 import ScrollToSection from './projects/scroll-to-top-and-bottom/ScrollToSection';
+import Weather from './projects/weather-app/weather/Weather';
 
 function App() {
   return (
@@ -87,7 +88,9 @@ function App() {
       {/* <ScrollToTopAndBottom /> */}
 
       {/* Scroll to a Particular Section */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+
+      <Weather />
     </div>
   );
 }
